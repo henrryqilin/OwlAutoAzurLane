@@ -1,9 +1,11 @@
+if __name__ == '__main__' :
+	print('这是主程序，不是启动程序')
+
 import cv2,pyautogui,time,numpy
 from paddleocr import PaddleOCR, draw_ocr
 from setting import *
 
 #————————————————————————————————————————————————————————————
-
 
 location_screenshot = './imgs/screenshot.png'
 exercises_loaction = [(335,400,130,75),(670,400,130,75),(1005,400,130,75),(1340,400,130,75)]
@@ -232,13 +234,13 @@ def find_and_start() :
 	immediate_start()
 	again = fighting_check()
 	
-	while n > 0 :
+	while repetition > 0 :
 		time.sleep(1)
 		click_change(again)
 		# time.sleep(100000) #没写完呢,下面是检测理智是否充足的代码
 		# get_screen()
 		again = fighting_check()
-		n -= 1
+		repetition -= 1
 	
 	return
 
@@ -354,7 +356,7 @@ def daily_challenge() :
 		click_change((625,338))
 		time.sleep(2)
 		get_screen()
-		click_change(get_xy('./imgs/models/sweep_for_three.png'))
+		click_change(get_xy('./imgs/models/sweep.png'))
 		time.sleep(1)
 		click_change((830,880))
 		time.sleep(1)
@@ -391,7 +393,7 @@ def daily_challenge() :
 					time.sleep(1)
 					continue#跳出循环
 
-			click_change(625,338)#
+			click_change((625,338))#
 			time.sleep(1)
 			get_screen()
 			click_change(get_xy('./imgs/models/sweep.png'))
