@@ -1,0 +1,16 @@
+正常运行后会出现“[Finished in ***s]”的提示
+如果出现错误也会出现类似的语句
+例如：[Finished in 12.2s with exit code 1]
+这个报错的上一句就是错误类型
+下面是开发过程中遇到的典型错误类型
+
+IndexError: list index out of range
+原因：大概率是因为变量all_result是个空列表。出现该问题的原因是OCR没能识别出有效的数据
+解决方法：1、查看截图的位置是否准确，找到OCR识别语句（show_all_menmber和show_result）前的的screenshot语句，
+对照./img/截图示例/中的文件,找到截图时对应的界面，再截一次图，与示例对比，看能否看到完整的信息，
+如果不行参考截图位置.txt修改screenshot的参数；
+如果可以，加大time.sleep()函数括号中的时间。
+
+对着空气乱点一通
+原因：大概率是因为上一步openCV识图的时候置信度没有过滤好。
+解决方法：暂无，正在优化。
