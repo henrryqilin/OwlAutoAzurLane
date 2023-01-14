@@ -1,13 +1,4 @@
- 
- # 说在前面
- 很抱歉上个版本(v0.2.0)没有测试就发出来了，出现了好几个很离谱的错误，   
- 导致写好的功能都不能用。   
- 当时好不容易把每日挑战的代码敲出来了，就急着发了，   
- 并且我第一次使用visual studio的git功能，并不是很熟练。  
- 在这里向大家道个歉。
 
- 
- 
  # Owl Auto Azur Lane
 碧蓝航线自动挂机脚本，在很长的一段时间内会一直处于开发阶段。~~(指当鸽子)~~
 
@@ -20,7 +11,7 @@
 ## 安装说明
 
 ### 1、安装[python](https://www.python.org/)环境（自己找教程叭）
-- 推荐3.7
+- 推荐3.7.8
 
 ### 2、安装[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 CPU用户
@@ -69,3 +60,4 @@ GPU用户（需要自行安装**CUDA**和**CUDNN**）
 - 图像识别：[opencv](https://github.com/opencv/opencv.git)
 - 文字识别：[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 - anywheretogo：[auto_player](https://github.com/anywheretogo/auto_player/blob/master/auto_player.py)
+- 还有一个明日方舟自动刷1-7的代码，现在找不到了
