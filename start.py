@@ -1,4 +1,6 @@
-﻿import Azur_Lane as oaa
+﻿#coding=utf-8
+
+import Azur_Lane as oaa
 #import develop as dev
 
 """
@@ -7,4 +9,4 @@ oaa.exercises()         #演习
 oaa.daily_challenge()   #每日挑战
 """
 
-oaa.find_and_start()
+oaa.exercises()
