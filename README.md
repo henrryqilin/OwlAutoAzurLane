@@ -1,6 +1,6 @@
 
- # Owl Auto Azur Lane
-碧蓝航线自动挂机脚本，在很长的一段时间内会一直处于开发阶段。~~(指当鸽子)~~
+# Owl Auto Azur Lane
+因为找到了ALAS开发周期已结束，未来会以另一个项目的形式继续开发
 
 ## 目录
 - [安装说明](#01)
@@ -26,7 +26,6 @@ GPU用户（需要自行安装**CUDA**和**CUDNN**）
 ```
 	pip install pyautogui
 	pip install time
-	pip install numpy
 ```
 
 <a name='02'></a>
